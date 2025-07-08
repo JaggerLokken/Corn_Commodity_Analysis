@@ -41,4 +41,3 @@ git clone https://github.com/JaggerLokken/Corn_Commodity_Analysis.git
 cd Corn_Commodity_Analysis
 pip install -r requirements.txt
 python app.py
-Open your browser to http://127.0.0.1:5000.
