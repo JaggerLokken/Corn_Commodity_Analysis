@@ -4,7 +4,7 @@ An interactive Flask web app that models CAPM behavior in corn futures using his
 The app combines Yahoo Finance data and USDA economic releases to calculate and visualize risk-adjusted performance.
 
 
-# Features
+## Features
 
 - **CAPM Summary**: Real-time beta, expected return, actual return, and volatility for corn vs. DBC
 - **SML Plot**: Security Market Line with visualized expected vs. actual return
@@ -12,7 +12,7 @@ The app combines Yahoo Finance data and USDA economic releases to calculate and 
 - **Return Tracking**: Monthly return comparison of corn vs. DBC
 
 
-# Tools Used
+## Tools Used
 
 - **Backend**: Flask, Python
 - **Finance Data**: yfinance for corn and commodity index pricing
@@ -22,7 +22,7 @@ The app combines Yahoo Finance data and USDA economic releases to calculate and 
 - **Frontend**: HTML, JavaScript
 
 
-# Project Structure
+## Project Structure
 CORN_DASHBOARD/
 ├── app.py # Flask backend
 ├── corn_model.py # CAPM + USDA model logic
@@ -34,15 +34,10 @@ CORN_DASHBOARD/
 │ └── *.txt # CAPM summary output
 └── README.md
 
-# Run It Locally
-git clone https://github.com/JaggerLokken/Corn_Commodity_Analysis.git
-cd Corn_Commodity_Analysis
-pip install -r requirements.txt
-python app.py
+## Run it Locally
+<pre><code> ```bash git clone https://github.com/JaggerLokken/Corn_Commodity_Analysis.git cd Corn_Commodity_Analysis pip install -r requirements.txt python app.py ``` Then open your browser to: [http://127.0.0.1:5000](http://127.0.0.1:5000) </code></pre>
 
-Open http://127.0.0.1:5000
-
-# Sample Output
+## Sample Output
 ![image](https://github.com/user-attachments/assets/f54ec674-237a-4f35-ab90-fdde2c6c02f9)
 
 
