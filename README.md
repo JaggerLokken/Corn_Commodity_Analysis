@@ -15,8 +15,8 @@ The app combines Yahoo Finance data and USDA economic releases to calculate and 
 # Tools Used
 
 - **Backend**: Flask, Python
-- **Finance Data**: `yfinance` for corn and commodity index pricing
-- **Government Data**: USDA API (using custom `requests`-based scraper)
+- **Finance Data**: yfinance for corn and commodity index pricing
+- **Government Data**: USDA API
 - **Stats & Modeling**: numpy, scipy, pandas
 - **Charts**: matplotlib
 - **Frontend**: HTML, JavaScript
