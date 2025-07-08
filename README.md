@@ -10,17 +10,16 @@ The app combines Yahoo Finance data and USDA economic releases to calculate and 
 - **SML Plot**: Security Market Line with visualized expected vs. actual return
 - **Regression Analysis**: Linear CAPM regression chart with alpha and R²
 - **Return Tracking**: Monthly return comparison of corn vs. DBC
-- **USDA Data Integration**: Optionally incorporates USDA economic reports (like WASDE or price indices) for more context on commodity performance
 
 
 # Tools Used
 
-- Backend: Flask, Python
-- Finance Data: `yfinance` for corn and commodity index pricing
-- Government Data: USDA API (using custom `requests`-based scraper)
-- Stats & Modeling: numpy, scipy, pandas
-- Plots: matplotlib
-- Frontend: HTML, JavaScript
+- **Backend**: Flask, Python
+- **Finance Data**: `yfinance` for corn and commodity index pricing
+- **Government Data**: USDA API (using custom `requests`-based scraper)
+- **Stats & Modeling**: numpy, scipy, pandas
+- **Charts**: matplotlib
+- **Frontend**: HTML, JavaScript
 
 
 # Project Structure
