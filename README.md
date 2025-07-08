@@ -34,8 +34,20 @@ CORN_DASHBOARD/
 │ └── *.txt # CAPM summary output
 └── README.md
 
-## Run it Locally
-<pre><code> ```bash git clone https://github.com/JaggerLokken/Corn_Commodity_Analysis.git cd Corn_Commodity_Analysis pip install -r requirements.txt python app.py ``` Then open your browser to: [http://127.0.0.1:5000](http://127.0.0.1:5000) </code></pre>
+## Run It Locally
+
+Make sure you're using a terminal (like VS Code terminal, Git Bash, or macOS/Linux Terminal).
+
+Clone the repo:
+
+```bash
+git clone https://github.com/JaggerLokken/Corn_Commodity_Analysis.git
+cd Corn_Commodity_Analysis
+pip install -r requirements.txt
+python app.py
+Then open your browser and go to:
+
+http://127.0.0.1:5000
 
 ## Sample Output
 ![image](https://github.com/user-attachments/assets/f54ec674-237a-4f35-ab90-fdde2c6c02f9)
