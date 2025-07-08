@@ -23,30 +23,27 @@ The app combines Yahoo Finance data and USDA economic releases to calculate and 
 
 
 ## Project Structure
-CORN_DASHBOARD/
-├── app.py # Flask backend
-├── corn_model.py # CAPM + USDA model logic
-├── templates/
-│ └── index.html
-├── static/
-│ ├── script.js
-│ ├── *.png # Plots: SML, regression, returns
-│ └── *.txt # CAPM summary output
-└── README.md
+CORN_DASHBOARD/  
+├── app.py # Flask backend  
+├── corn_model.py # CAPM + USDA model logic  
+├── templates/  
+│ └── index.html  
+├── static/   
+│ ├── script.js  
+│ ├── *.png # Plots: SML, regression, returns  
+│ └── *.txt # CAPM summary output  
+└── README.md  
 
 ## Run It Locally
 
-Make sure you're using a terminal (like VS Code terminal, Git Bash, or macOS/Linux Terminal).
+Make sure you're using a terminal (like VS Code terminal, Git Bash, or macOS/Linux Terminal).  
 
-Clone the repo:
+git clone https://github.com/JaggerLokken/Corn_Commodity_Analysis.git  
+cd Corn_Commodity_Analysis  
+pip install -r requirements.txt  
+python app.py  
 
-```bash
-git clone https://github.com/JaggerLokken/Corn_Commodity_Analysis.git
-cd Corn_Commodity_Analysis
-pip install -r requirements.txt
-python app.py
-Then open your browser and go to:
-
+Then open your browser and go to:  
 http://127.0.0.1:5000
 
 ## Sample Output
