@@ -1,0 +1,4 @@
+β: Corn Beta vs DBC: 0.1568
+E(R): CAPM Expected Return: 3.52%
+R: Actual Annual Return: 5.04%
+σ: Annual Volatility (Std Dev): 16.25%

@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           Corn_Returns   R-squared:                       0.027
+Model:                            OLS   Adj. R-squared:                  0.017
+Method:                 Least Squares   F-statistic:                     2.698
+Date:                Tue, 08 Jul 2025   Prob (F-statistic):              0.104
+Time:                        12:20:39   Log-Likelihood:                 164.26
+No. Observations:                  99   AIC:                            -324.5
+Df Residuals:                      97   BIC:                            -319.3
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const           0.0034      0.005      0.717      0.475      -0.006       0.013
+DBC_Returns     0.1568      0.095      1.643      0.104      -0.033       0.346
+==============================================================================
+Omnibus:                        4.723   Durbin-Watson:                   1.236
+Prob(Omnibus):                  0.094   Jarque-Bera (JB):                4.102
+Skew:                          -0.400   Prob(JB):                        0.129
+Kurtosis:                       3.595   Cond. No.                         20.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Corn Dashboard</title>
+</head>
+<body>
+    <h1>🌽 Corn Price Dashboard</h1>
+
+    <label for="outputSelect">Choose Output:</label>
+    <select id="outputSelect">
+        <option value="summary">🔍 CAPM Stats Summary</option>
+        <option value="returns">📈 Monthly Returns Line Graph</option>
+        <option value="regression">📊 CAPM Regression Plot</option>
+        <option value="regression_stats">🔍CAPM Regression Stats</option>
+        <option value="sml">📈 Security Market Line (SML)</option>
+    </select>
+
+    <button onclick="fetchOutput()">Run Analysis</button>
+
+    <div id="outputArea"></div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
