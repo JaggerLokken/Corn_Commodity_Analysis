@@ -42,18 +42,3 @@ cd Corn_Commodity_Analysis
 pip install -r requirements.txt
 python app.py
 Open your browser to http://127.0.0.1:5000.
-
-## Sample Output
-
-### CAPM Summary + Monthly Returns
-![Monthly Returns](static/returns_plot.png)
-
-### Security Market Line
-![SML Graph](static/sml_graph.png)
-
-### CAPM Regression Plot
-![Regression Plot](static/regression_plot.png)
-
-
-
-
