@@ -43,8 +43,17 @@ pip install -r requirements.txt
 python app.py
 Open your browser to http://127.0.0.1:5000.
 
-# Sample Output
-![image](https://github.com/user-attachments/assets/34d41dc9-4e89-4764-9756-aaaf70e46da0)
-![image](https://github.com/user-attachments/assets/c254608d-e9bb-4ce4-89af-fe4102b07805)
+## Sample Output
+
+### CAPM Summary + Monthly Returns
+![Monthly Returns](static/returns_plot.png)
+
+### Security Market Line
+![SML Graph](static/sml_graph.png)
+
+### CAPM Regression Plot
+![Regression Plot](static/regression_plot.png)
+
+
 
 
