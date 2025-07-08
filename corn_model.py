@@ -1,7 +1,7 @@
 import pandas as pd
 import yfinance as yf
 import matplotlib
-matplotlib.use('Agg')  # Use non-interactive backend for Flask
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import numpy as np
 import statsmodels.api as sm
@@ -77,6 +77,7 @@ def generate_summary():
 
     return result_text
 
+# Corn vs DBC Plot
 def plot_returns():
     _, combined = run_analysis()
     plt.figure(figsize=(10, 6))
