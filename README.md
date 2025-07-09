@@ -36,7 +36,7 @@ CORN_DASHBOARD/
 
 ## Run It Locally
 
-Make sure you're using a terminal (like VS Code terminal, Git Bash, or macOS/Linux Terminal).  
+Run the following code in a Terminal
 
 git clone https://github.com/JaggerLokken/Corn_Commodity_Analysis.git  
 cd Corn_Commodity_Analysis  
